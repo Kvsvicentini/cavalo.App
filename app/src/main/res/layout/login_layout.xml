@@ -20,22 +20,32 @@
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="20dp" />
+        android:layout_marginBottom="20dp"
+        android:hint="Insira o seu Email"
+        android:inputType="textEmailAddress"
+        android:maxLength="50"
+        android:paddingLeft="10sp"
+        android:textSize="20sp" />
 
     <EditText
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:hint="Insira a sua Senha"
+        android:inputType="numberPassword"
+        android:maxLength="8"
+        android:paddingLeft="10sp"
+        android:textSize="20sp" />
 
     <Button
-        android:layout_marginTop="20dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
         android:text="Entrar" />
 
     <Button
-        android:layout_marginTop="20dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
         android:text="Sair" />
 
 </LinearLayout>
