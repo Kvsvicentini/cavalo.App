@@ -21,31 +21,39 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="20dp"
+        android:drawableEnd="@drawable/baseline_email"
         android:hint="Insira o seu Email"
         android:inputType="textEmailAddress"
         android:maxLength="50"
         android:paddingLeft="10sp"
+        android:paddingRight="10sp"
         android:textSize="20sp" />
 
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:drawableEnd="@drawable/baseline_lock"
         android:hint="Insira a sua Senha"
         android:inputType="numberPassword"
         android:maxLength="8"
         android:paddingLeft="10sp"
+        android:paddingRight="10sp"
         android:textSize="20sp" />
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
-        android:text="Entrar" />
+        android:padding="15sp"
+        android:text="Entrar"
+        android:textSize="20sp" />
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
-        android:text="Sair" />
+        android:padding="15sp"
+        android:text="Sair"
+        android:textSize="20sp" />
 
 </LinearLayout>
